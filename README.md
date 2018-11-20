@@ -1,8 +1,20 @@
+TO Create
+
+▪	Cli project
+	▪	1. Greet User- let them know quickly            what the deal is 
+	▪	2. Print out the list of possible fish
+	▪	3. Have user pick from list
+	▪	4. Provide description of fish 
+	▪	5. more info? Or quit or show list?
+	▪	6. provide the location and fishing             season or
+	▪	7. Restart or
+	▪	8. Quit
+
+
+
 # FishFinder
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fish_finder`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the FishFinder gem. This gem is to help people Id commonly caught fish off the coast of New England. 
 
 ## Installation
 
