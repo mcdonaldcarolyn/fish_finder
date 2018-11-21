@@ -1,12 +1,15 @@
 class Fish
-  attr_accessor :name
+  attr_accessor :name, :description
 
-  @@all
+  @@all = []
 
-  def initialize(name)
+  def initialize(name, description)
     @name = name
    @@all << self
+   @description = description
+ 
   end
+
 
   def self.all
     @@all
