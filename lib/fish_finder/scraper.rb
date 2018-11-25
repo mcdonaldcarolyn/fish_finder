@@ -12,18 +12,11 @@ class Scraper
         if !is_fish_name_empty
           fish_description = fish.css('p')[0].text  
       
-          # fish_hash = {
-          #   name: fish_name, 
-          #   description:  fish_description
-          #  }
-          #  fish_list << fish_hash
+         
            fish =  Fish.new(fish_name, fish_description)
           end
       end
     end
-    def self.scrape_fish_descrip(name)
-      
-    
-    end
+   
 
   end
