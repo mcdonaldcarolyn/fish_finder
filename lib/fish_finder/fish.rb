@@ -5,9 +5,8 @@ class Fish
 
   def initialize(name, description)
     @name = name
-   @@all << self
-   @description = description
- 
+    @@all << self
+    @description = description
   end
 
 

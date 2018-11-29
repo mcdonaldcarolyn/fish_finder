@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = FishFinder::VERSION
   spec.authors       = ["Carolyn Whelpley"]
   spec.email         = ["carolynmwhelp@gmail.com"]
-  spec.summary       = %q{This is a summary}
+  spec.summary       = %q{This gem will use data from a site to allow easier access to information about local New England Fish}
   spec.homepage      = "https://github.com/mcdonaldcarolyn/fish_finder"
   spec.license       = "MIT"
 
