@@ -16,13 +16,13 @@ class Cli
   def menu
     puts "Please pick from this commonly caught fish list:"
     input = gets.chomp
+    if input.to_i == 0 || input.to_i > Fish.all.length
+      puts "invalid choice, please choose again"
+    else 
     fish = Fish.all[input.to_i - 1]
     # options for user  
-    if fish  
       puts "Here is some info: #{fish.description}"
-      else
-      puts "Invalid choice....please select again."  
-      end
+    end
     menu
   end
   end
