@@ -33,7 +33,7 @@ Or install it yourself as:
 
 Type the following in your command line to run the gem
 
-	`$ fish_finder-cli`
+	$ fish_finder-cli
 
 ## Development
 
